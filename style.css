@@ -407,7 +407,6 @@ line-height: 24px;
 /* Neutrals/N600 */
 color: #344563;
 
-
 /* Inside auto layout */
 flex: none;
 order: 1;
@@ -451,7 +450,6 @@ font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 24px;
-color: #396df2;
 border: #396df2 solid 1px;
 border-radius: 5px;
 text-align: center;
