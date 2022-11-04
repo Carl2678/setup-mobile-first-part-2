@@ -1,10 +1,45 @@
-## Copyright 2021, [YOUR NAME]
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-###### Please delete this line and the next one
-###### APP TYPE can be a webpage/website, a web app, a software and so on
+# Portfolio: Setup mobil first
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this [APP TYPE] and associated documentation files, to deal in the [APP TYPE] without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the [APP TYPE], and to permit persons to whom the [APP TYPE] is furnished to do so, subject to the following conditions:
+> Description the project.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the [APP TYPE].
+**For this repository, I' created html templates and styling files in order to built a responsive portfolio mobil first of Microverse project.,for now, i create 2 section.**
 
-THE [APP TYPE] IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE [APP TYPE] OR THE USE OR OTHER DEALINGS IN THE [APP TYPE].
+![alt text](https://github.com/Carl2678/Portfolio-mobile-first/blob/main/images/MySreenShot.png)
+
+## Built With
+
+- HTML
+- CSS
+- Git & Github
+
+## Live Demo
+
+[Live Demo Link](https://github.com/Carl2678/portfolio-mobile-first)
+
+
+## Getting Started
+
+
+To get a local copy up and running follow these simple example steps.
+- Open terminal
+- Clone this project by the command:
+
+```
+$ git git@github.com:Carl2678/portfolio-mobile-first.git
+```
+
+- Then go to the main folder using the next command:
+
+```
+$ cd portfolio-mobile-first.git
+
+
+
+## Authors
+
+👤 **Carlos Philippe**
+
+- GitHub: [@Carl2678](https://github.com/Carl2678)
+- LinkedIn: [@carlosphilippe](https://www.linkedin.com/in/carlos-philippe-67915067/)
