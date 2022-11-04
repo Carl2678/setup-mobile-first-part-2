@@ -115,39 +115,6 @@ h4 {
   height: 5125px;
 }
 
-#works_cat1 {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  gap: 12px;
-  width: 327px;
-  height: 552px;
-  background: #fff;
-  border: #dfe1e6 solid 1px;
-  border-radius: 16px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.about_myself {
-  width: 327px;
-  height: 101px;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
 .presentation {
   width: 327px;
   height: 144px;
@@ -488,6 +455,12 @@ h4 {
   transition: background-color 0.8s ease-in;
 }
 
+@media screen and (min-width: 768px) {
+  #works .service--content .item1 {
+    margin-bottom: 0;
+  }
+}
+
 #works .service--content .item3 h1 {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -593,4 +566,108 @@ h4 {
   text-align: center;
   padding: 10px 0;
   align-self: baseline;
+}
+
+#works  h1 {
+  /* Project Title */
+
+width: 295px;
+height: 36px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+/* or 138% */
+
+/* Neutrals/N800 */
+color: #172B4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#works p {
+  /* Primary Text */
+
+/* Body / 3 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+/* Neutrals/N600 */
+color: #344563;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#works button {
+
+width: 82px;
+height: 20px;
+
+/* Button / Small */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+letter-spacing: 0.07em;
+
+/* Primary/B400 */
+color: #6070FF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#works a {
+  /* See Project */
+
+width: 120px;
+height: 26px;
+
+/* Button /Normal */
+text-decoration: none;
+font-family: Poppins, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+color: #396df2;
+border: #396df2 solid 1px;
+border-radius: 5px;
+text-align: center;
+padding: 10px 0;
+align-self: baseline;
+
+/* identical to box height, or 141% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.03em;
+
+/* Primary/B500 */
+color: #396DF2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
 }
