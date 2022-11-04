@@ -84,10 +84,6 @@ h4 {
   margin-top: 20px;
 }
 
-#nav nav:hover {
-  cursor: pointer;
-}
-
 .internal-link {
   display: flex;
 }
@@ -461,7 +457,6 @@ align-self: baseline;
 display: flex;
 align-items: center;
 text-align: center;
-letter-spacing: 0.03em;
 
 /* Primary/B500 */
 color: #396DF2;
