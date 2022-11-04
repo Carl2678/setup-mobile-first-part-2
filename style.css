@@ -488,11 +488,6 @@ h4 {
   transition: background-color 0.8s ease-in;
 }
 
-@media screen and (min-width: 768px) {
-  #works .service--content .item1 {
-    margin-bottom: 0;
-  }
-
 #works .service--content .item3 h1 {
   font-family: Poppins, sans-serif;
   font-style: normal;
