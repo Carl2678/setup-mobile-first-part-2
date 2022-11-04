@@ -366,206 +366,8 @@ h4 {
   flex-grow: 0;
 }
 
-#works .service--content .item1 {
-  flex-basis: 32%;
-  text-align: center;
-  border: #e9ebec solid 1px;
-  padding: 20px 10px 40px;
-  margin-bottom: 30px;
-  transition: background-color 0.8s ease-in;
-}
-
-#works .service--content .item1 p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-#works .service--content .item1 a {
-  text-decoration: none;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  border: #396df2 solid 1px;
-  border-radius: 5px;
-  text-align: center;
-  padding: 10px 0;
-  align-self: baseline;
-}
-
-#works .service--content .item2 {
-  flex-basis: 32%;
-  text-align: center;
-  border: #e9ebec solid 1px;
-  padding: 20px 10px 40px;
-  margin-bottom: 30px;
-  transition: background-color 0.8s ease-in;
-}
-
-#works .service--content .item2 img {
-  width: 295px;
-  height: 220px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-#works .service--content .item2 p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-#works .service--content .item2 a {
-  text-decoration: none;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  border: #396df2 solid 1px;
-  border-radius: 5px;
-  text-align: center;
-  padding: 10px 0;
-  align-self: baseline;
-}
-
-#works .service--content .item3 {
-  flex-basis: 32%;
-  text-align: center;
-  border: #e9ebec solid 1px;
-  padding: 20px 10px 40px;
-  margin-bottom: 30px;
-  transition: background-color 0.8s ease-in;
-}
-
-@media screen and (min-width: 768px) {
-  #works .service--content .item1 {
-    margin-bottom: 0;
-  }
-}
-
-#works .service--content .item3 h1 {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-#works .service--content .item1 img {
-  width: 295px;
-  height: 220px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-#works .service--content .item3 p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-#works .service--content .item3 a {
-  text-decoration: none;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  border: #396df2 solid 1px;
-  border-radius: 5px;
-  text-align: center;
-  padding: 10px 0;
-  align-self: baseline;
-}
-
-#works .item1:hover {
+#works .item:hover {
   background-color: #def0ff;
-}
-
-#works .service--content .item4 {
-  flex-basis: 32%;
-  text-align: center;
-  border: #e9ebec solid 1px;
-  padding: 20px 10px 40px;
-  margin-bottom: 30px;
-  transition: background-color 0.8s ease-in;
-}
-
-#works .service--content .item4 h1 {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-#works .service--content .item4 img {
-  width: 295px;
-  height: 220px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-#works .service--content .item4 p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-#works .service--content .item4 a {
-  text-decoration: none;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  border: #396df2 solid 1px;
-  border-radius: 5px;
-  text-align: center;
-  padding: 10px 0;
-  align-self: baseline;
 }
 
 #works  h1 {
@@ -574,7 +376,7 @@ h4 {
 width: 295px;
 height: 36px;
 
-font-family: 'Poppins';
+font-family: Poppins, sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
@@ -595,7 +397,7 @@ flex-grow: 0;
   /* Primary Text */
 
 /* Body / 3 */
-font-family: 'Poppins';
+font-family: Poppins, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
@@ -618,7 +420,7 @@ width: 82px;
 height: 20px;
 
 /* Button / Small */
-font-family: 'Poppins';
+font-family: Poppins, sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
