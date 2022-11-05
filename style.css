@@ -398,6 +398,7 @@ flex-grow: 0;
 #works p {
   /* Primary Text */
 
+
 /* Body / 3 */
 font-family: Poppins, sans-serif;
 font-style: normal;
@@ -513,6 +514,7 @@ height: 16px;
 /* Caption / 1 - Bolder */
 font-family: 'Poppins';
 font-style: normal;
+<<<<<<< HEAD
 font-weight: 600;
 font-size: 13px;
 line-height: 16px;
@@ -542,6 +544,22 @@ line-height: 16px;
 
 /* Neutrals/N100 */
 color: #7A869A;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+border: #396df2 solid 1px;
+border-radius: 5px;
+text-align: center;
+padding: 10px 0;
+align-self: baseline;
+
+/* identical to box height, or 141% */
+display: flex;
+align-items: center;
+
+/* Primary/B500 */
+color: #396DF2;
+>>>>>>> c3285b12b1415e6ec056cb8e711fc79165dfdd7e
 
 
 /* Inside auto layout */
