@@ -457,11 +457,6 @@ h4 {
   order: 3;
   flex-grow: 0;
 }
-#works a:hover {
-  background-color: #f7f7f9;
-#works .item:hover {
-  background-color: #def0ff;
-}
 
 #works  h1 {
   /* Project Title */
