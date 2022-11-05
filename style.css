@@ -459,4 +459,184 @@ h4 {
 }
 #works a:hover {
   background-color: #f7f7f9;
+#works .item:hover {
+  background-color: #def0ff;
 }
+
+#works  h1 {
+  /* Project Title */
+
+width: 350px;
+height: 40px;
+
+font-family: Poppins, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+/* or 138% */
+
+/* Neutrals/N800 */
+color: #172B4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#works p {
+  /* Primary Text */
+
+
+/* Body / 3 */
+font-family: Poppins, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+/* Neutrals/N600 */
+color: #344563;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#works button {
+
+width: 82px;
+height: 20px;
+border-style: none;
+/* Button / Small */
+font-family: Poppins, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+letter-spacing: 0.07em;
+
+/* Primary/B400 */
+color: #6070FF;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#works a {
+  /* Normal Button/Secondary/Enabled */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+
+  width: 124px;
+  height: 48px;
+  left: 0px;
+  top: calc(50% - 48px/2);
+
+  /* Primary/B400 */
+  border: 1px solid #6070FF;
+  border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+#works a:hover {
+  background-color: #f7f7f9;
+}
+
+#works h3 {
+  /* Text */
+
+  width: 55px;
+  height: 16px;
+
+  /* Caption / 1 - Bolder */
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height, or 123% */
+
+  /* Neutrals/N600 */
+  color: #344563;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+/* Text */
+
+width: 88px;
+height: 16px;
+
+/* Caption / 1 - Bolder */
+font-family: Poppins, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+
+/* Neutrals/N100 */
+color: #7A869A;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Text */
+
+width: 29px;
+height: 16px;
+
+/* Caption / 1 - Bolder */
+font-family: Poppins, sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height, or 123% */
+
+/* Neutrals/N100 */
+color: #7A869A;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+border: #396df2 solid 1px;
+border-radius: 5px;
+text-align: center;
+padding: 10px 0;
+align-self: baseline;
+
+/* identical to box height, or 141% */
+display: flex;
+align-items: center;
+
+/* Primary/B500 */
+color: #396DF2;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
