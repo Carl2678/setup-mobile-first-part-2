@@ -303,10 +303,10 @@ h4 {
 .item1 {
   box-sizing: border-box;
   flex-direction: column;
-  align-items: left;
+  align-items: stretch;
   padding: 16px;
   gap: 12px;
-  width: 360px;
+  width: 330px;
   height: 650px;
   background: #fff;
   border: #dfe1e6 solid 1px;
@@ -319,10 +319,10 @@ h4 {
 .item2 {
   box-sizing: border-box;
   flex-direction: column;
-  align-items: left;
+  align-items: stretch;
   padding: 16px;
   gap: 12px;
-  width: 360px;
+  width: 330px;
   height: 690px;
   background: #fff;
   border: #dfe1e6 solid 1px;
@@ -335,10 +335,10 @@ h4 {
 .item3 {
   box-sizing: border-box;
   flex-direction: column;
-  align-items: left;
+  align-items: stretch;
   padding: 16px;
   gap: 12px;
-  width: 360px;
+  width: 330px;
   height: 650px;
   background: #fff;
   border: #dfe1e6 solid 1px;
@@ -348,13 +348,13 @@ h4 {
   flex-grow: 0;
 }
 
-.item4{
+.item4 {
   box-sizing: border-box;
   flex-direction: column;
-  align-items: left;
+  align-items: stretch;
   padding: 16px;
   gap: 12px;
-  width: 360px;
+  width: 330px;
   height: 710px;
   background: #fff;
   border: #dfe1e6 solid 1px;
@@ -381,7 +381,7 @@ h4 {
   color: #172b4d;
 
   /* Inside auto layout */
-  flex: left;
+  flex: none;
   order: 0;
   flex-grow: 0;
 }
@@ -410,28 +410,27 @@ h4 {
 
 #works button {
   width: 80px;
-height: 25px;
+  height: 25px;
 
-/* Button / Small */
-font-family: Poppins, sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 16px;
-/* identical to box height, or 133% */
-letter-spacing: 0.03em;
-border: none;
-border-radius: 8px;
-background: #EBEBFF;
+  /* Button / Small */
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 8px;
+  background: #ebebff;
 
-/* Primary/B400 */
-color: #6070FF;
+  /* Primary/B400 */
+  color: #6070ff;
 
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 0;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 #works h4 {
